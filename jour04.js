@@ -77,9 +77,8 @@ console.log(result);
 // exercise 6
 console.log("\nExercies 6");
 function format(num) {
-    let minutes = Math.floor(num / 60);
-    let hours = minutes / 60 >= 1 ? Math.floor(minutes / 60) : 0;
-    minutes = hours >= 1 ? minutes - hours * 60 : minutes;
+    let hours = Math.floor(num / 3600);
+    let minutes = Math.floor((num - (hours * 3600)) / 60);
     let seconds = num - (hours * 3600) - (minutes * 60);
     return `${hours} : ${minutes} : ${seconds}`;
 }

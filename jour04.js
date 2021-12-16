@@ -1,6 +1,6 @@
 // exercise 1 
 console.log("\nExercies 1");
-/*
+
 const cat = {
     name: "Garfield",
     age: 3,
@@ -109,7 +109,7 @@ function generatePassword(num) {
 let pwd = generatePassword(6);
 console.log(pwd);
 console.log(generatePassword(5));
-*/
+
 // bonus 2
 console.log("Bonus 2");
 
